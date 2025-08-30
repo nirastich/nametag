@@ -15,14 +15,14 @@ Text, font, size, rotation, rounded corners, colors, and overall tag dimensions 
 ## Usage
 
 > *Online*
-1. Go to the [Makerworld model page](https://makerworld.com/@nirastich)
-2. Click on "Customize"
+>1. Go to the [Makerworld model page](https://makerworld.com/@nirastich)
+>2. Click on "Customize"
 
 > *Local*
-1. Download and open the `.scad` file in [OpenSCAD](https://openscad.org).  
-2. Tweak the parameters in the Nametag and Advanced sections at the top.  
-3. Press F5 to preview, then F6 to render.  
-4. Export to STL for printing.
+>1. Download and open the `.scad` file in [OpenSCAD](https://openscad.org).  
+>2. Tweak the parameters in the Nametag and Advanced sections at the top.  
+>3. Press F5 to preview, then F6 to render.  
+>4. Export to STL for printing.
 
 ## Parameters
 
