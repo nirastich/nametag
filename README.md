@@ -15,7 +15,7 @@ Text, font, size, rotation, rounded corners, colors, and overall tag dimensions 
 ## Usage
 
 > *Online*
->1. Go to the [Makerworld model page](https://makerworld.com/@nirastich)
+>1. Go to the [Makerworld model page](https://makerworld.com/models/1748173)
 >2. Click on "Customize"
 
 > *Local*
