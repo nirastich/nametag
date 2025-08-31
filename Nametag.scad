@@ -91,9 +91,9 @@ module rotate_around_coord(x, y, z, coord) {
                 children();   
 }
 
-tag("test");
+tag();
 
-module tag(text) {
+module tag() {
     union () {
         header();
         rotate_around_coord(0,0,text_rotation,[0,-header_height/2+margin_y/2,0]) name_text();
@@ -168,4 +168,5 @@ module tag_background() {
         cube([corner_center_offset_x*2, tag_height, tag_depth],center=true);
         cube([tag_width, corner_center_offset_y*2, tag_depth],center=true);
     }
+
 }
