@@ -23,7 +23,7 @@ name = "CUSTOM  TEXT";
 text_size = 10; //[0.1:0.1:25]
 
 // Rotation of the Name (deg)
-text_rotation = 5; //[0.1:0.1:90]
+text_rotation = 5; //[0:0.1:90]
  
 // Height of the Nametag (mm)
 tag_height = 50; //[1:1:250]
@@ -36,30 +36,30 @@ tag_depth = 1; //[0.5:0.1:5]
  
 /* [Advanced] */
 
-// Font of the text
-font = "Segoe Script"; //["Segoe Script", "Arial:style=Bold"]
+// Font of the text (Makerworld-Fonts, use "Segoe Script" elsewhere)
+font = "Permanent Marker"; //["Segoe Script", "Arial:style=Bold", "Permanent Marker", "Kalam:style=Bold", "Protest Riot", "Caveat:style=Bold", "Chewy", "Lacquer", "Julee", "Lobster", "Potta One", "Pacifico"]
 
 // Line spacing multiplier for multi-line names
-name_line_spacing = 1.5; //[0.1:0.1:50]
+name_line_spacing = 1.5; //[0:0.1:50]
 
 // Textbox margin x (mm)
-margin_x = 2; //[0.1:0.1:50]
+margin_x = 2; //[0:0.1:50]
 // Textbox margin y (mm)
-margin_y = 4; //[0.1:0.1:50]
+margin_y = 4; //[0:0.1:50]
 
 // Corner Radius (mm)
-corner_radius = 4; //[0.1:0.1:50]
+corner_radius = 4; //[0:0.1:50]
 
 // Height difference between colors (mm)
 color_offset = 0.01; //[0.01:0.01:10]
 
 // Header Text
 header_text_1 = "HELLO";
-h1_size = 6; //[0.1:0.1:50]
+h1_size = 6; //[0:0.1:50]
 header_text_2 = "MY NAME IS";
-h2_size = 3; //[0.1:0.1:50]
-line_spacing = 2; //[0.1:0.1:50]
-header_margin = 2.5; //[0.1:0.1:50]
+h2_size = 3; //[0:0.1:50]
+line_spacing = 2; //[0:0.1:50]
+header_margin = 2.5; //[0:0.1:50]
 header_font = "Arial:style=Bold";
 
 // Tag Color
@@ -168,5 +168,4 @@ module tag_background() {
         cube([corner_center_offset_x*2, tag_height, tag_depth],center=true);
         cube([tag_width, corner_center_offset_y*2, tag_depth],center=true);
     }
-
 }
